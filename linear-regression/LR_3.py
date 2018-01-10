@@ -33,6 +33,6 @@ for i in range(-30, 50):
     W_val.append(curr_W)
     cost_val.append(curr_cost)
 
-# Show the cost funtcion
+# Show the cost function
 plt.plot(W_val, cost_val)
 plt.show()

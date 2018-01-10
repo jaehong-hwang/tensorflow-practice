@@ -26,7 +26,7 @@ train = optimizer.minimize(cost)
 
 # Launch the graph in a session.
 sess = tf.Session()
-#Initialize global variables in the graph.
+# Initialize global variables in the graph.
 sess.run(tf.global_variables_initializer())
 
 # Fit the Line
